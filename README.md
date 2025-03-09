@@ -4,8 +4,7 @@
 
 Также бот неоднократно запускался на сервере и имеет встроенный режим для удобного и быстрого нахождения файлов на сервере (см. фото с консолью).
 
-![image](https://github.com/user-attachments/assets/c3801a41-fefb-4c5d-a3c3-3e1585a577d7)
-
+![image](https://github.com/user-attachments/assets/43b542e4-82f1-4d64-ad82-342f0207d470)
 
 Если спросить бота: "Что ты умеешь?" (вне зависимости от регистра), - вот, что он ответит:
 
@@ -43,42 +42,41 @@
 
 🔆 А вообще можешь просто со мной поболтать😄"
 
-![image](https://github.com/user-attachments/assets/5b0d2cba-939d-4d52-8b45-933336ec2a48)
+![image](https://github.com/user-attachments/assets/bfe87496-8ae2-431b-88da-1ec52ab9115e)
 
-![image](https://github.com/user-attachments/assets/92954a93-91df-42cd-a4e0-3a516ba037b7)
+![image](https://github.com/user-attachments/assets/c4f7648d-182a-4598-adab-c997f7ec4a28)
 
-![image](https://github.com/user-attachments/assets/cddf4770-43f3-439d-a11b-70583417938f)
+![image](https://github.com/user-attachments/assets/26453c48-f7ae-47b9-b93c-895f4bb1d237)
 
-![image](https://github.com/user-attachments/assets/45fd5914-d56e-4283-b853-ff3d8bfee570)
+![image](https://github.com/user-attachments/assets/c117c551-1366-4fa4-9811-0c70192adac2)
 
-![image](https://github.com/user-attachments/assets/53136e67-4ed3-40b7-8475-448f3a91c508)
+![image](https://github.com/user-attachments/assets/c7696e5e-036a-4b03-8460-c686c41085d7)
 
-![image](https://github.com/user-attachments/assets/a860a57b-2268-4fe4-87de-00aad65ccbcb)
+![image](https://github.com/user-attachments/assets/2061b439-3885-4e4b-885e-c4c221fe10a4)
 
-![image](https://github.com/user-attachments/assets/c6c53543-9dac-4a8b-88d6-146470f80dd0)
+![image](https://github.com/user-attachments/assets/20a33dd3-e49f-42b3-9064-95d98d8ed099)
 
-![image](https://github.com/user-attachments/assets/b7dc18fe-d46f-4470-b363-bc714cbc7015)
+![image](https://github.com/user-attachments/assets/d5828f93-fd9f-425f-b16a-d0f83c2e93e6)
 
-![image](https://github.com/user-attachments/assets/853af208-a28f-4248-b41d-7ecdbf0a94d8)
+![image](https://github.com/user-attachments/assets/b3819728-054d-43ac-aaf5-2fdb2ce93cd7)
 
-![image](https://github.com/user-attachments/assets/c17500c3-4576-42e8-a74b-0c25161b2e8b)
+![image](https://github.com/user-attachments/assets/7d1f6bde-8432-49f5-8589-60ac7e5546c6)
 
-![image](https://github.com/user-attachments/assets/c6397913-8006-43a2-8269-881ee7b3fa0a)
+![image](https://github.com/user-attachments/assets/9b65a691-8b9d-402d-96f8-f7da124a6d3c)
 
-![image](https://github.com/user-attachments/assets/a31afb1b-d649-4cc7-8424-208b88073a5d)
+![image](https://github.com/user-attachments/assets/67445b44-bfee-41f0-b6a2-2393e7d74d97)
 
-![image](https://github.com/user-attachments/assets/537ca1b9-c825-4a76-93a1-2e29895c4c98)
+![image](https://github.com/user-attachments/assets/f3f6686d-b6a3-44a6-bdcc-f0f47de78f60)
 
-![image](https://github.com/user-attachments/assets/9ac11808-a4e8-44f6-8247-d7b83c6dd2ae)
+![image](https://github.com/user-attachments/assets/6ac1a26c-c017-4495-9c4a-f9b9f2e0bc96)
 
-![image](https://github.com/user-attachments/assets/748bc6e4-afbe-4dc9-9edb-16ad7dfe2956)
+![image](https://github.com/user-attachments/assets/53ce6d6b-22dd-4690-9c20-d9b4e762bb64)
 
-![image](https://github.com/user-attachments/assets/f1760b53-bc22-4d0a-9962-13213ba7e79d)
+![image](https://github.com/user-attachments/assets/b9de3863-ce1d-4f68-ac09-6747a6d0d754)
 
-![image](https://github.com/user-attachments/assets/a1a0d5ef-9466-4e2a-93c4-22d707735a1d)
+![image](https://github.com/user-attachments/assets/18153728-8f3c-44bb-a39b-3e9a66dafbff)
 
-![image](https://github.com/user-attachments/assets/7618d702-cbd5-4c46-8a91-df4ea5702631)
-
+![image](https://github.com/user-attachments/assets/da5dde97-cf24-4f0f-bddc-85f62d851a9b)
 
 
 Примечание:
