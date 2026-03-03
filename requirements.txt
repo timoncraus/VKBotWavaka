@@ -1,0 +1,6 @@
+requests
+vk-api
+wikipedia
+pyowm
+pycbrf
+matplotlib
