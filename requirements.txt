@@ -4,3 +4,4 @@ wikipedia
 pyowm
 pycbrf
 matplotlib
+deep-translator
