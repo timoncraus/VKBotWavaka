@@ -114,7 +114,6 @@ str_value = 'Вот все доступные мне валюты:' \
 			'\n🇨🇭Швейцарский франк (CHF)' \
 			'\n🇬🇧Фунт стерлингов (GBP)' \
 			'\n🇯🇵Иена (JPY)' \
-			'\n🇺🇦Украинская гривна (UAH)' \
 			'\n🇰🇿Казахстанский тенге (KZT)' \
 			'\n🇧🇾Белорусский рубль (BYN)' \
 			'\n🇹🇷Турецкая лира (TRY)' \
@@ -670,18 +669,6 @@ def help_value(fr, c):
 				return 'иен 🇯🇵'
 		else:
 			return 'иены 🇯🇵'
-	elif fr == 'UAH':
-		if c == float(c):
-			if (c >= 5 and c <= 20) or (c % 10 == 0 or c % 10 >= 5):
-				return 'украинских гривен 🇺🇦'
-			elif (c >= 2 and c <= 4) or (c % 10 >= 2 and c % 10 <= 4):
-				return 'украинских гривны 🇺🇦'
-			elif c == 1 or c % 10 >= 1 and c > 10:
-				return 'украинская гривна 🇺🇦'
-			else:
-				return 'украинских гривен 🇺🇦'
-		else:
-			return 'украинских гривны 🇺🇦'
 	elif fr == 'KZT':
 		if c == float(c):
 			if (c >= 5 and c <= 20) or (c % 10 == 0 or c % 10 >= 5):
@@ -1054,22 +1041,6 @@ while True:
 							vk.messages.send(user_id=event.user_id, message='В Декабре 31 день' + sub, random_id=get_random_id(), keyboard=keyboard.get_keyboard())
 						else:
 							vk.messages.send(user_id=event.user_id, message='Я не знаю такого месяца' + sub, random_id=get_random_id(), keyboard=keyboard.get_keyboard())
-					elif (vksms.count('слава') > 0) and (vksms.count('украине') > 0 or vksms.count('украiне') > 0 or vksms.count('україне') > 0):
-						vk.messages.send(user_id=event.user_id, message='Героям слава🇺🇦' + sub, random_id=get_random_id(), keyboard=keyboard.get_keyboard())
-					elif vksms.count('украин') > 0 or vksms.count('украiн') > 0 or vksms.count('україн') > 0:
-						vk.messages.send(user_id=event.user_id, message='Слава Украине🇺🇦' + sub, random_id=get_random_id(),
-							keyboard=keyboard.get_keyboard())
-					elif vksms.count('героям') > 0 or vksms.count('слава') > 0:
-						vk.messages.send(user_id=event.user_id, message='Это точно🇺🇦' + sub,
-							random_id=get_random_id(), keyboard=keyboard.get_keyboard())
-					elif vksms.count('ссср') > 0 or (vksms.count('советский') > 0 and vksms.count('союз') > 0) or (
-						vksms.count('союз') > 0 and vksms.count('советских') > 0 and vksms.count('социал') > 0 and vksms.count('республ') > 0):
-						photo = add_photo('https://avatars.mds.yandex.net/get-pdb/2497678/e39922f0-7615-4503-bd37-0e0a42f7469e/s1200')
-						vk.messages.send(user_id=event.user_id, message='Слава Советскому Союзу!' + sub, random_id=get_random_id(), keyboard=keyboard.get_keyboard(), attachment=photo)
-					elif vksms.count('казахстан') > 0 or vksms.count('казакстан') > 0:
-						photo = add_photo('https://avatars.mds.yandex.net/get-pdb/1348397/04aee01d-10f5-4048-b845-fd8787c0a836/s1200?webp=false')
-						vk.messages.send(user_id=event.user_id, message='Казахстан - страна будущего' + sub, attachment=photo,
-							random_id=get_random_id(), keyboard=keyboard.get_keyboard())
 					elif vksms.count('поделиться') > 0 or (vksms.count('рассказать') > 0 and vksms.count('друзьям') > 0):
 						vk.messages.send(user_id=event.user_id, message='Если хочешь рассказать обо мне другим, используй эту ссылку:\n@wavakka' + sub, random_id=get_random_id(), keyboard=keyboard.get_keyboard())
 					elif vksms.count('рассылк') > 0:
@@ -1103,24 +1074,6 @@ while True:
 						keyboard.add_line()
 						keyboard.add_button('P.S.', color=VkKeyboardColor.SECONDARY)
 						vk.messages.send(user_id=event.user_id, message=str_skills + sub, random_id=get_random_id(), keyboard=keyboard.get_keyboard())
-					elif vksms.count('аллах') > 0:
-						vk.messages.send(user_id=event.user_id, message='Аллах над нами,\nЗемля под нами,\nНож в кармане,\nВперёд, мусульмане!' + sub,
-						random_id=get_random_id(), keyboard=keyboard.get_keyboard())
-					elif (vksms.count('бля') > 0 or vksms.count('сук') > 0 or vksms.count(
-						'еб') > 0 or vksms.count('ёб') > 0 or vksms.count(
-						'сучка') > 0 or vksms.count('шлюх') > 0 or vksms.count(
-						'пизд') > 0 or vksms.count('дерьм') > 0 or vksms.count(
-						'говн') > 0 or vksms.count('хрен') > 0 or vksms.count(
-						'пезд') > 0 or vksms.count('пёзд') > 0 or vksms.count(
-						'мудак') > 0 or vksms.count('хуя') > 0 or vksms.count(
-						'курва') > 0 or vksms.count(
-						'муфлон') > 0 or vksms.count('хуя') > 0 or vksms.count(
-						'жоп') > 0 or vksms.count('хуй') > 0 or vksms.count(
-						'хуе') > 0) and not(vksms.count('теб') > 0) and not(
-						vksms.count('блямба') > 0) and not(vksms.count(
-						'сабл') > 0) and vksms!=('сук') and not (vksms.count(
-						'бляшка') > 0) and not(vksms.count('сукно') > 0) and not(vksms.count('рубля') > 0):
-						vk.messages.send(user_id=event.user_id, message='Без мата пожалуйста😡' + sub, random_id=get_random_id(), keyboard=keyboard.get_keyboard())
 					# Вызов глитч слово
 					elif (vksms.count('слов') > 0 or vksms.count('word') > 0) and (vksms.count('глитч') > 0 or vksms.count('glitch') > 0):
 						keyboard = VkKeyboard(one_time=True)
@@ -1215,22 +1168,6 @@ while True:
 							else:
 								paste = ' рубля'
 							vk.messages.send(user_id=event.user_id, message='🇯🇵Курс иены:\n100 иен = ' + JPY100 + paste + sub, random_id=get_random_id(), keyboard=keyboard.get_keyboard())
-						elif vksms.count('украин') > 0 or vksms.count('гривн') > 0 or vksms.count('uah') > 0 or vksms.count('🇺🇦') > 0:
-							UAH10 = str(rates['UAH'].value)[:5]
-							c = int(float(UAH10))
-							if c == float(UAH10):
-								UAH10 = str(int(UAH10))
-								if (c >= 5 and c <= 20) or (c % 10 == 0 or c % 10 >= 5):
-									paste = ' рублей'
-								elif (c >= 2 and c <= 4) or (c % 10 >= 2 and c % 10 <= 4):
-									paste = ' рубля'
-								elif c == 1 or c % 10 >= 1 and c > 10:
-									paste = ' рубль'
-								else:
-									paste = ' рублей'
-							else:
-								paste = ' рубля'
-							vk.messages.send(user_id=event.user_id, message='🇺🇦Курс украинской гривны:\n10 гривен = ' + UAH10 + paste + sub, random_id=get_random_id(), keyboard=keyboard.get_keyboard())
 						elif vksms.count('казахст') > 0 or vksms.count('тенге') > 0 or vksms.count('kzt') > 0 or vksms.count('🇰🇿') > 0:
 							KZT100 = str(rates['KZT'].value)[:5]
 							c = int(float(KZT100))
@@ -1399,7 +1336,6 @@ while True:
 										 '\n🇨🇭Курс швейцарского франка:\n1 франк = ' + CHF1 + ' рубля' \
 										 '\n🇬🇧Курс фунта стерлингов:\n1 фунт стерлинга = ' + GBP1 + ' рубля' \
 										 '\n🇯🇵Курс иены:\n100 иен = ' + JPY100 + ' рубля' \
-										 '\n🇺🇦Курс украинской гривны:\n10 гривен = ' + UAH10 + ' рубля' \
 										 '\n🇰🇿Курс казахстанского тенге:\n100 тенге = ' + KZT100 + ' рубля' \
 										 '\n🇧🇾Курс белорусского рубля:\n1 белорусский рубль = ' + BYN1 + ' рубля' \
 										 '\n🇹🇷Курс турецкой лиры:\n1 лира = ' + TRY1 + ' рубля' \
@@ -2504,10 +2440,6 @@ while True:
 							idslov[event.user_id] = 'calc jpy'
 							vk.messages.send(user_id=event.user_id, message='Введите валюту, на которую хотите перевести:',
 								random_id=get_random_id(), keyboard=keyboard.get_keyboard())
-						elif vksms.count('украин') > 0 or vksms.count('гривн') > 0 or vksms.count('uah') > 0 or vksms.count('🇺🇦') > 0:
-							idslov[event.user_id] = 'calc uah'
-							vk.messages.send(user_id=event.user_id, message='Введите валюту, на которую хотите перевести:',
-								random_id=get_random_id(), keyboard=keyboard.get_keyboard())
 						elif vksms.count('казахст') > 0 or vksms.count('тенге') > 0 or vksms.count('kzt') > 0 or vksms.count('🇰🇿') > 0:
 							idslov[event.user_id] = 'calc kzt'
 							vk.messages.send(user_id=event.user_id, message='Введите валюту, на которую хотите перевести:',
@@ -2588,13 +2520,6 @@ while True:
 							keyboard = VkKeyboard(one_time=True)
 							keyboard.add_button('Отмена', color=VkKeyboardColor.NEGATIVE)
 							idslov[event.user_id] = str(idslov[event.user_id]) + '-jpy'
-							vk.messages.send(user_id=event.user_id,
-								message='Введите количество:', random_id=get_random_id(),
-								keyboard=keyboard.get_keyboard())
-						elif vksms.count('украин') > 0 or vksms.count('гривн') > 0 or vksms.count('uah') > 0 or vksms.count('🇺🇦') > 0:
-							keyboard = VkKeyboard(one_time=True)
-							keyboard.add_button('Отмена', color=VkKeyboardColor.NEGATIVE)
-							idslov[event.user_id] = str(idslov[event.user_id]) + '-uah'
 							vk.messages.send(user_id=event.user_id,
 								message='Введите количество:', random_id=get_random_id(),
 								keyboard=keyboard.get_keyboard())
@@ -2732,10 +2657,6 @@ while True:
 							idslov[event.user_id] = 'tr2 ko'
 							vk.messages.send(user_id=event.user_id, message='Введите язык, на который хотите перевести:',
 								random_id=get_random_id(), keyboard=keyboard.get_keyboard())
-						elif vksms.count('украин') > 0 or event.text == '🇺🇦':
-							idslov[event.user_id] = 'tr2 uk'
-							vk.messages.send(user_id=event.user_id, message='Введите язык, на который хотите перевести:',
-								random_id=get_random_id(), keyboard=keyboard.get_keyboard())
 						elif vksms.count('белорус') > 0 or event.text == '🇧🇾':
 							idslov[event.user_id] = 'tr2 be'
 							vk.messages.send(user_id=event.user_id, message='Введите язык, на который хотите перевести:',
@@ -2784,10 +2705,6 @@ while True:
 								random_id=get_random_id(), keyboard=keyboard.get_keyboard())
 						elif vksms.count('коре') > 0 or event.text == '🇾🇹':
 							idslov[event.user_id] = 'tr3 ' + str(idslov[event.user_id])[4:] + '-ko'
-							vk.messages.send(user_id=event.user_id, message='Введите текст, который хотите перевести:',
-								random_id=get_random_id(), keyboard=keyboard.get_keyboard())
-						elif vksms.count('украин') > 0 or event.text == '🇺🇦':
-							idslov[event.user_id] = 'tr3 ' + str(idslov[event.user_id])[4:] + '-uk'
 							vk.messages.send(user_id=event.user_id, message='Введите текст, который хотите перевести:',
 								random_id=get_random_id(), keyboard=keyboard.get_keyboard())
 						elif vksms.count('белорус') > 0 or event.text == '🇧🇾':
