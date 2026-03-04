@@ -70,8 +70,8 @@ f = open(file2, 'r')
 stab = int(f.read())
 f.close()
 # Настройка vk
-token1 = 'vk1.a.s0D4LCy7W8GVc-zXS7b7Ji4Y9lt_n9aNBSzwWMr5kibY-Opy_me0MPx_C6etk54nUIMqdXJfFxwvBt5VUXxaril4qPHYl6-uAP2vey-qhmULf90vQxDowW6ljDKqCuUJfVPZCRcKbCNc7kuV1qJlBztkf5vaLzedQCbhOQC1mOoC-iB_yMYjAPY4bGH3rNS8_sWRH-KeDqPpTTERyUI0sQ'
-group_id = '236395278'
+token1 = '!СЕКРЕТНЫЙ ТОКЕН!'
+group_id = '!НОМЕР ГРУППЫ!'
 vk_session = vk_api.VkApi(token=token1)
 longpoll = VkLongPoll(vk_session)
 vk = vk_session.get_api()
